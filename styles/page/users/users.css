@@ -1,0 +1,340 @@
+/********************************************************
+* GLOBALS
+********************************************************/
+/**
+ * URL
+ */
+/*
+ * COLORS
+ */
+/**
+ * FONT FAMILY
+ */
+/*
+ * FONT SIZE
+ */
+/*
+* LINE HEIGHT
+*/
+/*
+* FONT SIZE - MEASURE
+*/
+/*
+* FONTS - MARGIN
+*/
+/*
+* MEDIA-QUERIES
+*/
+/********************************************************
+* BUTTONS
+********************************************************/
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: auto;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.jc-space-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.jc-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ai-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fw-wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.d-grid {
+  display: -ms-grid;
+  display: grid;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: 'Exo';
+  src: url("http://127.0.0.1:5500/styles/fonts/exo/Exo-Bold.woff2") format("woff2"), url("http://127.0.0.1:5500/styles/fonts/exo/Exo-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Exo';
+  src: url("http://127.0.0.1:5500/styles/fonts/exo/Exo-Regular.woff2") format("woff2"), url("http://127.0.0.1:5500/styles/fonts/exo/Exo-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: exo;
+  font-size: 1.3rem;
+  color: #7f7f7f;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: arial;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 3.2rem;
+  line-height: 3.8rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 2.6rem;
+  line-height: 3.2rem;
+  margin-bottom: 2rem;
+  margin-top: 1.2rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+  line-height: 3rem;
+  margin-bottom: 2rem;
+}
+
+h4 {
+  font-size: 2rem;
+  line-height: 2.6rem;
+  margin-bottom: 2rem;
+}
+
+h5 {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+h6 {
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 1.3rem;
+  line-height: 2.8rem;
+  margin: 0px 0px;
+  color: #1b4f82;
+  font-family: arial;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 16px;
+  color: #fff;
+  font-size: 1.3rem;
+  border-radius: 30px;
+}
+
+.button--primary {
+  background-color: #3dc154;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 19px 43px;
+}
+
+.button--secondary {
+  background-color: #ffba7a;
+}
+
+.button--small {
+  font-size: 1.1rem;
+  padding: 5px 8px;
+  font-size: 1.1rem;
+}
+
+.button--medium {
+  padding: 8px 14px;
+  font-size: 1.3rem;
+}
+
+.button--large {
+  padding: 19px 43px;
+  font-size: 1.8rem;
+}
+
+.btn-social {
+  display: inline-block;
+  color: #0d3964;
+  font-size: 2rem;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: solid 1px #d8d8d8;
+  border-radius: 8px;
+  text-align: center;
+  height: 222px;
+  padding: 10px 0;
+}
+
+.card img {
+  border-radius: 100%;
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0;
+}
+
+.card h3 {
+  font-size: 11px;
+  line-height: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card__bottom__phone {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #cdcdcd;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card__bottom__social {
+  font-size: 16px;
+}
+
+.card__bottom__phone li, .card__bottom__social li {
+  margin-left: 10px;
+}
+
+.header {
+  padding: 36px 0 36px 0;
+  font-size: pixelTorem(12);
+}
+
+.header__list li {
+  margin-left: 10px;
+  color: #1b4f82;
+}
+
+.main {
+  margin-left: 4.1rem;
+}
+
+.main h2 {
+  font-weight: normal;
+  font-size: 3.8rem;
+}
+
+.main p {
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+}
+
+.main .button {
+  margin-top: 2.1rem;
+}
+
+.main .icon {
+  display: -ms-grid;
+  display: grid;
+}
+
+.main .d-flex.fw-wrap {
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+/*# sourceMappingURL=users.css.map */

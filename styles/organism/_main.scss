@@ -1,0 +1,27 @@
+.main{
+    margin-left: pixelToRem(41);
+
+    h2{
+        font-weight: normal;
+        font-size: pixelToRem(38);
+    }
+
+    p{
+        font-size: pixelToRem(16);
+        line-height: $line-height-p;
+    }
+
+    .button{
+        margin-top: pixelToRem(21);
+    }
+
+    .icon{
+        display: grid;
+        
+    }
+
+    .d-flex.fw-wrap{
+        margin-top: pixelToRem(50);
+        margin-bottom: pixelToRem(100);
+    }
+}

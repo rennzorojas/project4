@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Exo';
+    src: url('#{$url-base}/styles/fonts/exo/Exo-Bold.woff2') format('woff2'),
+        url('#{$url-base}/styles/fonts/exo/Exo-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Exo';
+    src: url('#{$url-base}/styles/fonts/exo/Exo-Regular.woff2') format('woff2'),
+        url('#{$url-base}/styles/fonts/exo/Exo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
